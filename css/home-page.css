@@ -1,0 +1,86 @@
+html, body{
+    height: 100%;
+}
+@font-face {
+    font-family: Inter-Medium;
+    src: url(../assets/Inter_18pt-Medium.ttf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../assets/Inter-VariableFont_opsz,wght.ttf);
+}
+
+@font-face {
+    font-family: Inter-Extrabold;
+    src: url(../assets/Inter_18pt-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../assets/Inter_18pt-Bold.ttf);
+}
+
+body{
+    background-image: url("../assets/Homepage.png");
+    background-color: rgb(20, 50, 61);
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+    max-width: 1200px;  /* Limits width to 1200px */
+    max-height: 100vh;  /* Stops height at the screen size */
+    margin: 0 auto;     /* Centers the content */
+    overflow-x: hidden;   /* Allows vertical scrolling inside */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Spread items across */
+    align-items: center; /* Align vertically */
+    padding: 15px 20px;
+    color: white;
+}
+
+.logo-area p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+.navigation {
+    display: flex;
+    gap: 20px; /* Space between items */
+    padding: 8px 15px;
+}
+
+.navigation p {
+    cursor: pointer;
+    font-size: 20px;
+    padding: 8px 15px;
+}
+
+.start {
+    background: rgb(232, 192, 38);
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.start:hover {
+    background: rgb(223, 174, 37);
+}
+
+.title-card{
+    display: flex;
+    flex-direction: column;
+    font-size: xx-large;
+    padding: 30px;
+    margin-bottom: 120px;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.title-description{
+    font-size: 30px;
+    width: 1000px;
+}
