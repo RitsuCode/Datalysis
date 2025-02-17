@@ -1,0 +1,128 @@
+html, body{
+    height: 100%;
+}
+@font-face {
+    font-family: Inconsolata-Variable;
+    src: url(assets/Inconsolata-VariableFont_wdth,wght.ttf);
+}
+@font-face {
+    font-family: Inconsolata-Regular;
+    src: url(assets/Inconsolata-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inconsolata-Medium;
+    src: url(assets/Inconsolata-Medium.ttf);
+}
+@font-face {
+    font-family: Inconsolata-Bold;
+    src: url(assets/Inconsolata-Bold.ttf);
+}
+
+body{
+    background-image: url("assets/image 1.png");
+    background-color: rgb(20, 50, 61);
+    background-size: 100%;
+    background-attachment: scroll;
+    color: white;
+    text-align: center;
+}
+
+h1, h2{
+    font-family: Inconsolata-Variable;
+}
+
+h1{
+    font-size: 40px;
+}
+
+img{
+    width: 150px;
+}
+
+/* div{
+    border-width: 2px;
+    border-color: aliceblue;
+    border-style: solid;
+    display: block;
+} */
+p{
+    font-size: large;
+    font-family: Inconsolata-Medium;
+}
+.squiggle-bot{
+    left: 1px;
+    width: 1000px;
+    top: 600px;
+    position: absolute;
+    z-index: 1;
+}
+.squiggle-top{
+    right: 1px;
+    width: 800px;
+    top: 0px;
+    position: absolute ;
+    z-index: 1;
+
+}
+
+.lines{
+    right: 120px;
+    width: 1200px;
+    top: 0px;
+    position: absolute ;
+    z-index: 1;
+
+}
+
+.circles1{
+    right: 1350px;
+    width: 300px;
+    bottom: 200px;
+    position: absolute ;
+    z-index: 1;
+
+}
+.circles2{
+    left: 1300px;
+    width: 800px;
+    top: 800px;
+    position: absolute ;
+    z-index: 1;
+
+}
+.title{
+    padding: 10px;
+}
+.logo{
+    width: 250px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.description{
+    font-family: Inconsolata-Medium;
+    font-size: large;
+    color: rgb(181, 180, 180);
+}
+.generate{
+    padding: 20px;
+    position: relative;
+    margin-top: 10px;
+    background-color: rgb(232, 192, 38);
+    color: black;
+    font-family: Inconsolata-Bold;
+    font-size: large;
+    border-style: none;
+    border-radius: 10px;
+    width: 450px;
+    cursor: pointer;
+    z-index: 10;
+}
+.generate:hover{
+    background-color: rgb(223, 174, 37);
+    transition: background-color 0.3s;
+}
+.generate:active{
+    color:hsl(252, 6%, 83%);
+}

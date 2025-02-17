@@ -1,0 +1,63 @@
+.upload-img{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 200px;
+    width: 50px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(255, 255, 255);
+    background: rgba(0, 0, 0, 0.15);
+}
+.btn-info{
+    position: absolute;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-family: Inconsolata-Regular;
+    color: hsl(0, 0%, 100%);
+} 
+#upload-image{
+    width: 300px;
+    padding: 70px;
+    opacity: 0;
+    position: relative;
+    cursor: pointer;
+    z-index: 10;
+}
+#upload-img:hover{
+    background: rgba(255, 255, 255, 0.15);
+    transition: background 1s;
+}
+.avatar-container:hover{
+    border-style: solid;
+    border-color: white;
+    background: rgba(255, 255, 255, 0.05); 
+    transition: border-style 1s, border-color 0.5s;
+    .upload-img{
+        border-color: white;
+        background: rgba(255, 255, 255, 0);
+        transition: border-color 0.5s, background 0.5s;
+    }
+    .btn-info{
+        color: white;
+        transition: color 1s;
+    }
+}
+.avatar-container{
+    text-align: center; 
+    border-style: dashed; 
+    background: rgba(255, 255, 255, 0.1);  
+    border-radius: 10px; 
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+.avatar-container:active{
+    background-color: rgba(255, 255, 255, 0.30); ;
+}
+.avatar{
+    text-align: left;
+    width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+}
