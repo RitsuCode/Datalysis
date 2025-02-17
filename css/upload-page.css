@@ -2,34 +2,38 @@ html, body{
     height: 100%;
 }
 @font-face {
-    font-family: Inconsolata-Variable;
-    src: url(assets/Inconsolata-VariableFont_wdth,wght.ttf);
+    font-family: Inter-Medium;
+    src: url(../assets/Inter_18pt-Medium.ttf);
 }
 @font-face {
-    font-family: Inconsolata-Regular;
-    src: url(assets/Inconsolata-Regular.ttf);
+    font-family: Inter-Regular;
+    src: url(../assets/Inter-VariableFont_opsz,wght.ttf);
 }
 
 @font-face {
-    font-family: Inconsolata-Medium;
-    src: url(assets/Inconsolata-Medium.ttf);
+    font-family: Inter-Extrabold;
+    src: url(../assets/Inter_18pt-ExtraBold.ttf);
 }
 @font-face {
-    font-family: Inconsolata-Bold;
-    src: url(assets/Inconsolata-Bold.ttf);
+    font-family: Inter-Bold;
+    src: url(../assets/Inter_18pt-Bold.ttf);
 }
 
 body{
-    background-image: url("assets/image 1.png");
+    background-image: url("../assets/Upload Page.png");
     background-color: rgb(20, 50, 61);
     background-size: 100%;
     background-attachment: scroll;
     color: white;
     text-align: center;
+    max-width: 1200px;  /* Limits width to 1200px */
+    max-height: 100vh;  /* Stops height at the screen size */
+    margin: 0 auto;     /* Centers the content */
+    overflow-x: hidden;   /* Allows vertical scrolling inside */
 }
 
 h1, h2{
-    font-family: Inconsolata-Variable;
+    font-ter-Variable;
 }
 
 h1{
@@ -48,7 +52,10 @@ img{
 } */
 p{
     font-size: large;
-    font-family: Inconsolata-Medium;
+    font-family: Inter-Medium;
+}
+.header{
+    font-family: Inter-Medium;
 }
 .squiggle-bot{
     left: 1px;
@@ -84,12 +91,12 @@ p{
 
 }
 .circles2{
-    left: 1300px;
+    left: 1100px;
     width: 800px;
     top: 800px;
     position: absolute ;
     z-index: 1;
-
+    object-fit: contain;
 }
 .title{
     padding: 10px;
@@ -101,28 +108,11 @@ p{
 }
 
 .description{
-    font-family: Inconsolata-Medium;
+    font-family: Inter-Medium;
     font-size: large;
     color: rgb(181, 180, 180);
 }
-.generate{
-    padding: 20px;
-    position: relative;
-    margin-top: 10px;
-    background-color: rgb(232, 192, 38);
-    color: black;
-    font-family: Inconsolata-Bold;
-    font-size: large;
-    border-style: none;
-    border-radius: 10px;
-    width: 450px;
-    cursor: pointer;
-    z-index: 10;
-}
-.generate:hover{
-    background-color: rgb(223, 174, 37);
-    transition: background-color 0.3s;
-}
-.generate:active{
-    color:hsl(252, 6%, 83%);
+.extra-space {
+    height: 200px; /* Increases page height */
+    background-color: transparent; /* Optional */
 }
