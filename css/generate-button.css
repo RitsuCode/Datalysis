@@ -1,0 +1,21 @@
+.generate{
+    padding: 20px;
+    position: relative;
+    margin-top: 10px;
+    background-color: rgb(232, 192, 38);
+    color: black;
+    font-family: Inter-Bold;
+    font-size: large;
+    border-style: none;
+    border-radius: 10px;
+    width: 450px;
+    cursor: pointer;
+    z-index: 10;
+}
+.generate:hover{
+    background-color: rgb(223, 174, 37);
+    transition: background-color 0.3s;
+}
+.generate:active{
+    color:hsl(252, 6%, 83%);
+}
